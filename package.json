@@ -1,0 +1,29 @@
+{
+  "name": "ts-express-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.17.0",
+    "@types/mongoose": "^5.5.12",
+    "@types/node": "^12.7.1",
+    "nodemon": "^1.19.1",
+    "sucrase": "^3.10.1",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.3"
+  }
+}
